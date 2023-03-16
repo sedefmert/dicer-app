@@ -1,0 +1,19 @@
+
+button{
+    padding: 10px 40px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    transition: .3s;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 70px
+}
+
+button:hover{
+    background-color: #8D7B68;
+}
+h2{
+    margin-left: 70px;
+}
