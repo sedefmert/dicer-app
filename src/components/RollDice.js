@@ -24,10 +24,16 @@ function RollDice({sides}) {
             dice1 : Object.keys(newDice1),
             dice2 : Object.keys(newDice2),
             rolling:true,
-            totalScore:score1[0] + score2[0]
+            totalScore:score1[0] + score2[0],
         })
+       
+
+      
         setTimeout(()=>{
             setState((prevState)=> ({...prevState,rolling : false}))
+            if (score1[0]== score2[0]) {
+                alert("kazandınız !")
+            }
         },500)
     }
 
